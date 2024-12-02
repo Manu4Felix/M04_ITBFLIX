@@ -1,3 +1,8 @@
+.gif{
+   width: 20%;
+}
+
+
 header{
     background-color: black;
     color: #E03C31;
@@ -83,7 +88,16 @@ header{
     padding: 1%;
  }
  
- 
+ .encabezado-actores{
+   background-color: #E03C31;
+   width: 100%;
+   margin: 0%;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   justify-content: center;
+   display: flex;
+ }
+
  .container-actores{
     display: flex;
     flex-direction: row;
@@ -94,7 +108,7 @@ header{
  
  
  .container-actores h3{
-    font-size: 10px;
+    font-size: 12px;
     justify-content: center;
     display: flex;
     margin: 0%;
@@ -110,7 +124,7 @@ header{
  
  
  .container-actores p{
-    font-size: 6px;
+    font-size: 8px;
     justify-content: center;
     display: flex;
     margin: 3%;
