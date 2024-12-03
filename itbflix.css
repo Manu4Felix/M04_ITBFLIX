@@ -179,6 +179,7 @@ header{
    justify-content: center;
    margin: 20%;
    margin-top: 0%;
+   margin-bottom: 0%;
    width: 80%;
    background-color: black;
 
@@ -223,7 +224,55 @@ header{
    margin: 10%;
    width: 100%;
    border-radius: 2%;
-   
+
 }
 
+.container-series img:hover, .container-peliculas img:hover{
+   filter: blur(3px);
+   transform: scale(1.05);
+}
+
+
+.encabezado-lomasvisto{
+   background-color: black;
+   color: #E03C31;
+   display: flex;
+   justify-content: center;
+   margin: 0%;
+   padding: 2%;
+}
+
+.container-lomasvisto{
+   display: flex;
+   flex-direction: row;
+   background-color: black;
+}
+
+.container-lomasvisto article{
+   display: flex;
+   align-content: space-between;
+   margin: 1%;
+
+}
+
+.container-lomasvisto img{
+   width: 70%;
+}
+
+.container-lomasvisto img:hover{
+   transform: scale(1.05);
+   filter: blur(5px);
+}
+
+
+footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   background-color: black;
+   color: gray;
+   border: solid;
+   border-color: #E03C31;
+}
 
