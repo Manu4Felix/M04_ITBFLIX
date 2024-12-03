@@ -147,9 +147,8 @@ header{
    display: flex;
    flex-direction: column;
    background-color: gray;
-   width: 382%;
+   width: 242%;
    margin: 0%;
-   float: left;
  }
 
  .encabezado-festivales{
@@ -169,7 +168,7 @@ header{
 
  .container-festivales img{
    margin: 0%;
-   width: 50%;
+   width: 70%;
  }
 
  .container-series{
@@ -218,6 +217,13 @@ header{
 
 .container-series article a{
    color: #E03C31;
+}
+
+.container-series img{
+   margin: 10%;
+   width: 100%;
+   border-radius: 2%;
+   
 }
 
 
