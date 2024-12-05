@@ -1,44 +1,4 @@
-.gif{
-   width: 20%;
-}
 
-
-header{
-    background-color: black;
-    color: #E03C31;
-    padding: 20px;
-    text-align: center;
-    position: sticky;
-    top: 0;
- }
- 
- 
- nav ul{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 45px;
-    background-color: black;
-    color: #E03C31;
- }
-
- nav li:hover{
-   background-color: rgb(20, 20, 20);
-   border-radius: 10px;
- }
- 
- 
- nav li{
-    text-transform: uppercase;
-    list-style: none;
-    padding: 10px;
-    width: 10%;
- }
- nav a{
-    text-decoration: none;
-    color: #E03C31;
-    text-align: end;
- }
- 
  .encabezado-peliculas{
    background-color: black;
     width: 100%;
@@ -274,14 +234,5 @@ header{
 }
 
 
-footer{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-   background-color: black;
-   color: gray;
-   border: solid;
-   border-color: #E03C31;
-}
+
 
