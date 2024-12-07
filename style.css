@@ -2,7 +2,6 @@
     width: 20%;
  }
  
- 
  header{
      background-color: black;
      color: #E03C31;
@@ -46,6 +45,6 @@
     align-items: center;
     background-color: black;
     color: gray;
-    border: solid;
-    border-color: #E03C31;
+    border: solid 1px #E03C31;
+    padding: 1%;
  }
