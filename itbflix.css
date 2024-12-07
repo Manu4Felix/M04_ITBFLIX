@@ -1,3 +1,6 @@
+ body{
+   background-color: black;
+ }
 
  .encabezado-peliculas{
    background-color: black;
@@ -198,6 +201,7 @@
 .container-series img:hover, .container-peliculas img:hover{
    filter: blur(3px);
    transform: scale(1.05);
+   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 
@@ -220,16 +224,34 @@
    display: flex;
    align-content: space-between;
    margin: 1%;
+   position: relative;
 
 }
 
-.container-lomasvisto img{
-   width: 70%;
+.container-lomasvisto article img{
+   width: 100%;
+   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .container-lomasvisto img:hover{
    transform: scale(1.05);
    filter: blur(5px);
+}
+
+.numero {
+   position: absolute;
+   color: white;
+   font-size: 50px;
+   margin-top: 40%;
+   margin-left: 40%;
+   font-weight: bold;
+   text-align: center;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.container-lomasvisto article:hover .numero {
+   opacity: 1; /* Esto hace que se muestre el número al pasar el ratón */
 }
 
 
