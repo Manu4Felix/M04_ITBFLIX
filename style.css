@@ -41,10 +41,18 @@
   footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     color: gray;
-    border: solid 1px #E03C31;
     padding: 1%;
+    margin: 0%;
+ }
+
+ footer a{
+   color: gray;
+ }
+
+ footer address{
+   text-align: center;
  }
