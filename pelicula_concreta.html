@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Película del mes</title>
+    <title>Película del mes: The Beekeeper</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="pelicula_concreta.css">
-
 </head>
 
 <body>
     <header>
         <img src="logo.gif" alt="Logo ITBFLIX" class="gif">
-
 
         <!-- Menú de navegación -->
         <nav>
@@ -27,44 +25,62 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Contenido principal -->
     <div class="container-beekeeper">
-        <section class="titulo">
-            <img src="thebeekeeper.gif" alt="beekeeper" class="titulo">
+        <!-- Imagen y título -->
+        <img src="thebeekeeper.gif" alt="The Beekeeper" class="titulo">
 
-        </section>
-
-            <!-- Sinopsis -->
-            <section class="sinopsis">
-                <h2>Sinopsis</h2>
+        <!-- Información de la película -->
+        <section>
+            <h2>Sinopsis</h2>
+            <article>
                 <p>
                     Un ex agente encubierto se embarca en una misión de venganza personal después de la trágica pérdida
                     de una amiga. "The Beekeeper" es un thriller lleno de acción que explora justicia, lealtad y
                     redención.
                 </p>
-            </section>
+                <a href="https://es.wikipedia.org/wiki/The_Beekeeper">Ver más</a>
+            </article>
 
-            <!-- Elenco -->
-            <section class="elenco">
-                <h2>Elenco</h2>
-                <ul>
-                    <li><strong>Jason Statham:</strong> Mr. Beekeeper</li>
-                    <li><strong>Emmy Raver-Lampman:</strong> Agent Verona Parker</li>
-                    <li><strong>Josh Htcherson:</strong> Derek Danforth</li>
-                </ul>
-            </section>
+        </section>
 
-            <!-- Tráiler -->
-            <section class="trailer">
-                <h2>Tráiler</h2>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="trailer.mp4"
-                        title="Tráiler de The Beekeeper" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </section>
-        </main>
+
+        <section>
+            <h2>Protagonistas</h2>
+            <div class="container-protagonistas">
+
+                <article>
+                    <a href=""></a>
+                    <img src="src/JasonStatham.jpg" alt="Foto de Jason Statham">
+                    <h3>Jason Statham</h3>
+                    <p>Interpretando a Mr. Beekeeper</p>
+                </article>
+
+                <article>
+                    <img src="src/josh.jpg" alt="Foto de Josh">
+                    <h3>Josh Hutcherson</h3>
+                    <p>Interpretando a Derek Danforth</p>
+                </article>
+
+                <article>
+                    <img src="src/emmy.jpg" alt="Foto de Emmy">
+                    <h3>Emmy Raver-Lampman</h3>
+                    <p>Interpretando a Verona Parker</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Tráiler</h2>
+            <article class="trailer">
+                <iframe src="src/trailer.mp4" title="Tráiler The Beekeeper"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </article>
+        </section>
 
     </div>
 
@@ -77,19 +93,15 @@
             </p>
         </section>
 
-
         <address>
             <p>Carrer d'Aiguablava 121</p>
             <p>08033 Barcelona</p>
         </address>
 
-
         <section>
             <p>&copy; Copyright</p>
         </section>
     </footer>
-
-
 </body>
 
 </html>

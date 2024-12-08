@@ -1,92 +1,90 @@
 body{
     background-color: rgb(0, 0, 0);
+
 }
 
-.titulo{
-    width: 70%;
-    text-align: center;
-}
-
-/* Contenedor principal */
 .container-beekeeper {
     background-color: #111;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
     text-align: center;
-    border: solid 1px gray;
+    border: solid 1px black;
     border-radius: 15px;
     width: 80%;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 5%;
 
 }
 
-/* Banner */
-.banner {
-    position: relative;
-    margin-bottom: 30px;
+.titulo{
+    width: 40%;
+
 }
 
-.banner-image {
-    width: 100%;
-    height: auto;
-}
-
-.banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
-    padding: 15px;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.2rem;
-}
-
-/* Sinopsis */
-.sinopsis {
-    margin-bottom: 2%;
-}
-
-.sinopsis h2 {
-    font-size: 2rem;
-    color: #E03C31; /* Rojo Netflix */
-    margin-bottom: 15px;
-}
-
-/* Elenco */
-.elenco {
-    margin-bottom: 30px;
-}
-
-.elenco h2 {
-    font-size: 2rem;
+section h2{
     color: #E03C31;
-    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.elenco ul {
-    list-style: none;
-    padding: 0;
-}
 
-.elenco ul li {
-    margin: 10px 0;
-    font-size: 1.2rem;
-}
-
-/* Tráiler */
-.trailer h2 {
-    font-size: 2rem;
-    color: #E03C31;
+section article p{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.video-container {
-    display: flex;
-    justify-content: center;
-    margin: 2%;
-    border-radius: 2px;
+section article a{
+    color: rgb(99, 99, 99);
+    margin-top: 0%;
 }
+
+.container-protagonistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: black;
+ }
+ 
+ 
+ .container-protagonistas h3{
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    margin: 4%;
+    color: #E03C31;
+ }
+ 
+ .container-protagonistas article img{
+    width: 100%;
+    border-radius: 100%;
+    margin-top: 1%;
+ }
+ 
+ .container-protagonistas p{
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    margin: 3%;
+ }
+
+ .trailer{
+    margin-top: 10%;
+    margin-bottom: 15%;
+
+ }
+
+iframe{
+    width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 6px 12px 35px #E03C31;
+ }
+
+
+
