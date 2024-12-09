@@ -186,6 +186,12 @@
 
 .container-series article a{
    color: #E03C31;
+   text-decoration: none;
+}
+
+.container-series article a:hover{
+   color: white;
+   text-decoration: underline;
 }
 
 .container-series img{

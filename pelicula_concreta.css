@@ -40,6 +40,12 @@ section article p{
 section article a{
     color: rgb(99, 99, 99);
     margin-top: 0%;
+    text-decoration: none;
+}
+
+section article a:hover{
+    color: #E03C31;
+    text-decoration: underline;
 }
 
 .container-protagonistas{

@@ -47,7 +47,14 @@ body{
  
  .container-series article a{
     color: #E03C31;
+    text-decoration: none;
  }
+
+ .container-series article a:hover{
+    color: white;
+    text-decoration: underline;
+ }
+
  
  .container-series img{
     margin: 10%;
@@ -107,6 +114,12 @@ body{
  
  .container-peliculas article a{
     color: #E03C31;
+    text-decoration: none;
+ }
+
+.container-peliculas article a:hover{
+    color: white;
+    text-decoration: underline;
  }
  
  .container-peliculas img{

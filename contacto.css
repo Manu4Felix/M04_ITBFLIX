@@ -63,6 +63,12 @@ body{
 
 .formulario p a{
     color: white;
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+}
+
+.formulario p a:hover{
+    color: #E03C31;
     text-decoration: underline;
     background-color: rgb(20, 20, 20);
 }
