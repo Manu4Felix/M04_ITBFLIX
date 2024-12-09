@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+}
+
+.container-series{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10%;
+  }
+  
+  .encabezado-series{
+    background-color: black;
+    width: 100%;
+    margin: 0%;
+    color: #E03C31;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+  }
+ 
+  .container-series article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 2%;
+    background-color: black;
+ }
+ 
+ .container-series article h3 {
+    color: #E03C31;
+    margin: 0%;
+    margin-bottom: 2%;
+ }
+ 
+ .container-series article p{
+    color: gray;
+    text-align: center;
+    margin: 2%;
+ }
+ 
+ .container-series article a{
+    color: #E03C31;
+ }
+ 
+ .container-series img{
+    margin: 10%;
+    width: 100%;
+    border-radius: 2%;
+ 
+ }
+ 
+ .container-series img:hover, .container-peliculas img:hover{
+    filter: blur(3px);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, filter 0.3s ease;
+ }
+
+ .container-peliculas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10%;
+  }
+  
+  .encabezado-peliculas{
+    background-color: black;
+    width: 100%;
+    margin: 0%;
+    color: #E03C31;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+  }
+ 
+  .container-peliculas article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 2%;
+    background-color: black;
+ }
+ 
+ .container-peliculas article h3 {
+    color: #E03C31;
+    margin: 0%;
+    margin-bottom: 2%;
+ }
+ 
+ .container-peliculas article p{
+    color: gray;
+    text-align: center;
+    margin: 2%;
+ }
+ 
+ .container-peliculas article a{
+    color: #E03C31;
+ }
+ 
+ .container-peliculas img{
+    margin: 10%;
+    width: 100%;
+    border-radius: 2%;
+ 
+ }
+ 
+ .container-peliculas img:hover, .container-peliculas img:hover{
+    filter: blur(3px);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, filter 0.3s ease;
+ }
